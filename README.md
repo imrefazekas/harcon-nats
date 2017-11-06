@@ -16,11 +16,7 @@ npm install harcon harcon-nats --save
 let Harcon = require('harcon')
 let Nats = require('harcon-nats')
 
-let natsConfig = {
-	connectURL: 'amqp://localhost',
-	socketType: 'PUBSUB', // 'PUSHPULL' to be used for PUSH/PULL socket type
-	timeout: 0
-}
+let natsConfig = { 'url': 'nats://localhost:4222' }
 let harcon = new Harcon( { Barrel: Nats.Barrel, barrel: natsConfig } )
 ```
 

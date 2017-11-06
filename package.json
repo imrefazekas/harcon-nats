@@ -1,0 +1,47 @@
+{
+  "name": "harcon-nats",
+  "version": "1.0.8",
+  "description": "NATS.io plugin for the harcon messaging/service bus of node-based enterprise entities.",
+  "keywords": [
+    "nats",
+    "messaging",
+    "message bus",
+    "enterprise service bus"
+  ],
+  "homepage": "https://github.com/imrefazekas/harcon-nats",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imrefazekas/harcon-nats.git"
+  },
+  "bugs": {
+    "url": "http://github.com/imrefazekas/harcon-nats/issues"
+  },
+  "author": {
+    "name": "Imre Fazekas",
+    "email": "mail@imrefazekas.me"
+  },
+  "license": "MIT",
+  "main": "./lib/Nats.js",
+  "dependencies": {
+    "clerobee": "^0.8.6",
+    "harcon": "^8.4.8",
+    "isa.js": "^2.1.0",
+    "nats": "^0.7.24",
+    "proback.js": "^2.1.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "pino": "^4.9.0",
+    "watch": "^1.0.2"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "scripts": {
+    "lint": "eslint lib/",
+    "mocha": "mocha test/nats.mocha.js",
+    "test": "mocha test/nats.mocha.js"
+  }
+}

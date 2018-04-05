@@ -24,8 +24,8 @@
   "main": "./lib/Nats.js",
   "dependencies": {
     "clerobee": "^0.9.6",
-    "harcon": "^8.8.0",
-    "isa.js": "^2.2.0",
+    "harcon": "^8.8.1",
+    "isa.js": "^2.2.1",
     "nats": "^0.8.4",
     "proback.js": "^2.1.6"
   },
@@ -33,7 +33,7 @@
     "chai": "^4.1.2",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
-    "pino": "^4.15.0",
+    "pino": "^4.16.0",
     "watch": "^1.0.2"
   },
   "engines": {

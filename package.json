@@ -1,6 +1,6 @@
 {
   "name": "harcon-nats",
-  "version": "1.4.6",
+  "version": "1.4.7",
   "description": "NATS.io plugin for the harcon messaging/service bus of node-based enterprise entities.",
   "keywords": [
     "nats",
@@ -24,7 +24,7 @@
   "main": "./lib/Nats.js",
   "dependencies": {
     "clerobee": "^0.9.7",
-    "harcon": "^8.8.6",
+    "harcon": "^8.8.7",
     "isa.js": "^2.2.2",
     "nats": "^1.0.1",
     "proback.js": "^2.1.7"
@@ -33,7 +33,7 @@
     "chai": "^4.1.2",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
-    "pino": "^5.1.0",
+    "pino": "^5.4.0",
     "pino-pretty": "^2.0.1",
     "watch": "^1.0.2"
   },

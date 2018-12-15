@@ -10,14 +10,14 @@ module.exports = {
 		}, 2000 )
 
 		this.setInterval( async () => {
-			console.log( '--------', await self.ignite( null, null, 'HarconSys.factory', 'Phil.echo', 'Helloka!' ) )
+			console.log( '--------', await self.request( null, null, 'HarconSys.factory', 'Phil.echo', 'Helloka!' ) )
 		}, 10000 )
 		*/
 	},
-	echo: async function ( message, terms, ignite ) {
+	echo: async function ( message, terms ) {
 		return message
 	},
-	dormir: async function ( terms, ignite ) {
+	dormir: async function ( terms ) {
 		return 'Oui!'
 	}
 }

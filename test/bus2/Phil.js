@@ -9,10 +9,10 @@ module.exports = {
 		}, 2000 )
 		*/
 	},
-	echo: async function ( message, terms, ignite ) {
+	echo: async function ( message, terms ) {
 		return message
 	},
-	dormir: async function ( terms, ignite ) {
-		return await ignite( 'Chris.dormir' )
+	dormir: async function ( terms ) {
+		return terms.request( 'Chris.dormir' )
 	}
 }

@@ -1,6 +1,6 @@
 {
   "name": "harcon-nats",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "NATS.io plugin for the harcon messaging/service bus of node-based enterprise entities.",
   "keywords": [
     "nats",

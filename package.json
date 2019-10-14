@@ -24,9 +24,9 @@
   "main": "./lib/Nats.js",
   "dependencies": {
     "clerobee": "^1.0.0",
-    "harcon": "^9.2.20",
+    "harcon": "^9.2.21",
     "isa.js": "^2.2.10",
-    "nats": "^1.3.0",
+    "nats": "^1.3.2",
     "proback.js": "^2.1.8"
   },
   "devDependencies": {
